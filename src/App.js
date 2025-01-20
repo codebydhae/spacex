@@ -1,6 +1,8 @@
-import '../src/styles/index.css';
+import '../src/styles/index.scss';
 import { ApolloProvider, InMemoryCache, ApolloClient } from '@apollo/client';
 import Routing from './routes/index';
+// import './App.scss';
+
 
 //https://spacex-production.up.railway.app/
 

@@ -42,18 +42,18 @@ const NavBar = () => {
     // console.log(data);
 
     return (
-        <div ClassName="container-fluid" ref={navRef}>
+        <div className="container-fluid" ref={navRef}>
             <div className="row">
             <TopMenu 
                 isMenuOpen={isMenuOpen} 
                 isMobileView={isMobileView} 
-                setIsMenuOpen={setIsMenuOpen}
+                toggleMenu={setIsMenuOpen}
                 rockets={data.rockets}
                 />
             <SideMenu 
                 isMenuOpen={isMenuOpen} 
                 isMobileView={isMobileView} 
-                setIsMenuOpen={setIsMenuOpen}
+                toggleMenu={setIsMenuOpen}
                 rockets={data.rockets}
                 />
             </div>

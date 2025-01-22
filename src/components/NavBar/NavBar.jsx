@@ -25,11 +25,6 @@ const GET_ROCKETS_NAMES = gql`
   }
 `;
 
-
-
-
-
-
 const NavBar = () => {
     const navRef = useRef(null);
     const { isMobileView, isMenuOpen, setIsMenuOpen } = useNavigation(navRef);
